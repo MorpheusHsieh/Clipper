@@ -1,0 +1,29 @@
+DIR.DOC 目錄內容說明檔
+SUMMER95 1995夏天做的專案
+ALLFILE.PRG 建檔程式
+BOOK.PRG 技術書刊管理程式
+BOOK-1.PRG 技術書刊管理程式
+BOOK-2.PRG 技術書刊管理程式
+BOOK-3.PRG 技術書刊管理程式
+BOOK-5.PRG 技術書刊管理程式
+BOOK_A.PRG 技術書刊管理程式
+COMPILER.BAT Clipper complier batch file
+CP001.PRG 通訊錄管理程式
+D_SEEK.PRG 以管制序號查詢對下用料檔
+INDEX.PRG 建索引檔
+LIBRARY.PRG 圖書管理程式
+MENU.PRG 陸軍補保系統輔助程式選單
+PHONE.PRG 電話號碼管理
+PROM0001.PRG 登錄1201卡程式
+PROM0002.PRG 欠撥查詢
+PROM0003.PRG 列管可修件建檔程式
+PROM01.PRG 以管制序號抓一段日子的資料
+PROM02.PRG 用裝備號碼抓資料
+PROM02A.PRG 用裝備號碼抓資料, 自動建檔
+PROM03-1.PRG 列印列管可修件資料
+PROM03-2.PRG 建立列管可修件分檔程式
+PROM03-3.PRG 庫存檔列管可修件轉換分檔程式
+PROM03-4.PRG 庫存檔列管可修件轉換分檔程式, PART II
+RE_DOS.PRG Return DOS
+UNIT.PRG 以料號查詢品名、單價
+U_SEEK.PRG 以管制序號查詢對上用料檔

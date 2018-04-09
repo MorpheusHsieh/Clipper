@@ -1,0 +1,34 @@
+~I T24 W1Z1 X4G2FK
+維修記錄主檔            客戶資料主檔              主件主檔                廠商主檔
+fix.dbf                 guest.dbf                 item.dbf                factory.dbf
+
+1.車號     mcno   c 7   1.車型       mctype c 8   1.主件代號 imno   c 8   1.廠商代號 fcno   c 6
+2.工令號碼 ctno   c 8   2.車號       mcno   c 7   2.主件名稱 imname c 50  2.廠商名稱 fcname c 50
+3.維修原因 break  c 50  3.車主       master c 8   3.廠商代號 fcno   c 6   3.廠商電話 fctel  c 16
+4.申請料號 dtno   c 24  4.住宅區域碼 harea  c 2   4.報價     fcost  n 8   4.廠商住址 fcadr  c 50
+5.送修日期 ondate d 8   5.住宅電話   htel   c 8   5.售價     scost  n 8   5.聯絡人   fconet c 8
+6.修護日期 fxdate d 8   6.住宅住址   hadr   c 50  6.報價日期 ondate d 8   6.日期     ondate d 8
+7.數量     fxqty  n 4   7.公司區域碼 warea  c 2
+                        8.公司電話   wtel   c 16
+                        9.公司住址   wadr   c 50
+                        A.共同使用人 name2  c 8
+                        B.引擎號碼   egno   c 10
+                        C.駕照號碼   idno   c 10
+                        D.B.B.CALL   bbcall c 12
+                        E.出廠日期   sdate  d 8
+
+
+
+零附件主檔              庫存主檔                  對上用料檔              對下用料檔
+data.dbf                store.dbf                 updata.dbf              dndata.dbf
+
+1.主件代號 imno   c 8   1.主件代號 imno   c 8     1.憑單序號 orno   c 8   1.工令號碼 ctno   c 8
+2.料號     dtno   c 24  2.料號     dtno   c 24    2.主件代號 imno   c 8   2.主件代號 imno   c 8
+3.料件名稱 dtname c 50  3.報價     fcost  n 8     3.料號     dtno   c 24  3.料號     dtno   c 24
+4.廠商     fcno   c 6   4.儲位     local  c 3     4.廠商     fcno   c 6   4.車號     mcno   c 7
+5.售價     scost  n 8   5.基準量   qty1   n 4     5.申請     ivstd1 n 4   5.申請     ivstd1 n 4
+6.日期     ondate d 8   6.現有數   qty2   n 4     6.欠撥     ivstd2 n 4   6.欠撥     ivstd2 n 4
+                        7.日期     ondate d 8     7.撥發     ivstd3 n 4   7.撥發     ivstd3 n 4
+                                                  8.待收     ivstd4 n 4   8.待收     ivstd4 n 4
+                                                  9.日期     ondate d 8   9.日期     ondate 8 6
+
